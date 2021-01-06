@@ -1,0 +1,175 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mrasterisco",
+    "module": "ISO8601DateFormat",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "vnyltd7z7fcytgxkh63q2mzf54"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.mrasterisco",
+          "module": "Time",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ISO8601DateFormat-metadata-1.0.0-all.jar",
+          "url": "ISO8601DateFormat-1.0.0-all.jar",
+          "size": 8185,
+          "sha512": "a7ce7f2782fa110e1c4863a74786d4aa0724197c536005190fa953278c456903bfa4e133d73161a752391dbe0bbc7ba9d50b8a37f677b4e8977a219cbbaccea6",
+          "sha256": "c3cff6c9f0079c4cc656a85f93c3cd9b8f9e289e087b54d473d800c98481d536",
+          "sha1": "a525b2c470ada0b1664f8b34cc1b888588b80d88",
+          "md5": "2fa12cb286082eda9d8b1461a3d0fbca"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ISO8601DateFormat-1.0.0.jar",
+          "url": "ISO8601DateFormat-1.0.0.jar",
+          "size": 5389,
+          "sha512": "6606177ab18861c87e947b7bb9aaae7063f4d6c5268f15d20c45eb5aa8a6bba8a00f13a145cc2f95c7fc223e6d207dbf52eb63c6fdff83d5048e95d2a9d2730a",
+          "sha256": "0ff705aedb9c086a84026a435f66ca99da3f0b6bad0827c3cd3c49ad79455c8a",
+          "sha1": "a4e56eaec03c67c58ff3f2ec0e9619c4aee25061",
+          "md5": "04101b552f6fb1a174e4d49a29be37c6"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ISO8601DateFormat-iosarm64/1.0.0/ISO8601DateFormat-iosarm64-1.0.0.module",
+        "group": "io.github.mrasterisco",
+        "module": "ISO8601DateFormat-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ISO8601DateFormat-iosarm64/1.0.0/ISO8601DateFormat-iosarm64-1.0.0.module",
+        "group": "io.github.mrasterisco",
+        "module": "ISO8601DateFormat-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ISO8601DateFormat-iosx64/1.0.0/ISO8601DateFormat-iosx64-1.0.0.module",
+        "group": "io.github.mrasterisco",
+        "module": "ISO8601DateFormat-iosx64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ISO8601DateFormat-iosx64/1.0.0/ISO8601DateFormat-iosx64-1.0.0.module",
+        "group": "io.github.mrasterisco",
+        "module": "ISO8601DateFormat-iosx64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ISO8601DateFormat-jvm/1.0.0/ISO8601DateFormat-jvm-1.0.0.module",
+        "group": "io.github.mrasterisco",
+        "module": "ISO8601DateFormat-jvm",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ISO8601DateFormat-jvm/1.0.0/ISO8601DateFormat-jvm-1.0.0.module",
+        "group": "io.github.mrasterisco",
+        "module": "ISO8601DateFormat-jvm",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

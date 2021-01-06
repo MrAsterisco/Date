@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ISO8601DateFormat/1.0.0/ISO8601DateFormat-1.0.0.module",
+    "group": "io.github.mrasterisco",
+    "module": "ISO8601DateFormat",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "vnyltd7z7fcytgxkh63q2mzf54"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.mrasterisco",
+          "module": "Time",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ISO8601DateFormat.klib",
+          "url": "ISO8601DateFormat-iosx64-1.0.0.klib",
+          "size": 32507,
+          "sha512": "ff39dbbd9d2b728f57c701a39e5cfc5019ddb11460f4ac19f25014ed9919dd1a0b07526a2f58ac4b146efe87c0e15f94b5f6b0e08497ee8cfb6d7098a8c0d4b4",
+          "sha256": "0434ac06391aaf0ea1d3406a159015828b7c8f9f45e49500a757c786e6a614d2",
+          "sha1": "55e3ab80ab1a84a116e15ee44c7d07836ff0fdae",
+          "md5": "f1ad43989dfade6892fa2ac0f577cd6e"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.mrasterisco",
+          "module": "Time",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ISO8601DateFormat-iosx64-1.0.0-metadata.jar",
+          "url": "ISO8601DateFormat-iosx64-1.0.0-metadata.jar",
+          "size": 7864,
+          "sha512": "987d3adf8250229d7dbb61de8cf933ac28d3e22609d0806bf1e70e265577c8ed56c16c6bd415deeb8da6efe5ef1a3de74700a91bc3792d9064d4da3bf3c43b36",
+          "sha256": "cd1928cc0134b5c22aa0739b4d945599387df45ca228079f190099dfaf744e21",
+          "sha1": "bfa99bae893b4703028cfd63eabf50471c8011bd",
+          "md5": "0f7a74442c6a968f9b114f424b502c1a"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../ISO8601DateFormat/1.0.0/ISO8601DateFormat-1.0.0.module",
+        "group": "io.github.mrasterisco",
+        "module": "ISO8601DateFormat",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../ISO8601DateFormat/1.0.0/ISO8601DateFormat-1.0.0.module",
+        "group": "io.github.mrasterisco",
+        "module": "ISO8601DateFormat",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}
