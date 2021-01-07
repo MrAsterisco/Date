@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>io.github.mrasterisco</groupId>
-  <artifactId>ISO8601DateFormat-iosx64</artifactId>
+  <artifactId>Date-iosx64</artifactId>
   <versioning>
     <latest>1.0.0</latest>
     <release>1.0.0</release>
     <versions>
       <version>1.0.0</version>
     </versions>
-    <lastUpdated>20210106160444</lastUpdated>
+    <lastUpdated>20210106163518</lastUpdated>
   </versioning>
 </metadata>

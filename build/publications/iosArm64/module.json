@@ -1,9 +1,9 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../ISO8601DateFormat/1.0.0/ISO8601DateFormat-1.0.0.module",
+    "url": "../../Date/1.0.0/Date-1.0.0.module",
     "group": "io.github.mrasterisco",
-    "module": "ISO8601DateFormat",
+    "module": "Date",
     "version": "1.0.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7",
-      "buildId": "vnyltd7z7fcytgxkh63q2mzf54"
+      "buildId": "n24xfh4mmjcldn3xohp7an7pim"
     }
   },
   "variants": [
@@ -49,13 +49,13 @@
       ],
       "files": [
         {
-          "name": "ISO8601DateFormat.klib",
-          "url": "ISO8601DateFormat-iosarm64-1.0.0.klib",
-          "size": 32524,
-          "sha512": "a7c86e0ef96ee08c419e25e5109c3c50bf931117b95a01048e8f18485cc5a9d858fa08d66be956b34e2d3cdde9dca9729fffc2c6d516a6318dfda678ce2863dc",
-          "sha256": "3229610ce8df79c868f55720f761a900a4c60a2b03e936ee8aec6836b0ae5505",
-          "sha1": "4e70575e23cb2b5fa5b4254a6ccae8a599156e48",
-          "md5": "46750e90c5b03e7278a294f80a8ffdbf"
+          "name": "Date.klib",
+          "url": "Date-iosarm64-1.0.0.klib",
+          "size": 31195,
+          "sha512": "1bd99c2a5610286b49a946cc841f60877ef77c10f25139a6381f0c456d44e3601e4aa46a247e1e62415ae5a7166f8fa12511b5c7e31c9097b37a9d6e97493421",
+          "sha256": "f10d18295d527b3feac625e62169c22e9a4cfa01cab5d0547145149bc001ae51",
+          "sha1": "bc0a82a6d775ec3b71c35ffaf823fb71d2ec47d5",
+          "md5": "19dfebb4dd23d625a3a719827c165725"
         }
       ]
     },
@@ -92,13 +92,13 @@
       ],
       "files": [
         {
-          "name": "ISO8601DateFormat-iosarm64-1.0.0-metadata.jar",
-          "url": "ISO8601DateFormat-iosarm64-1.0.0-metadata.jar",
-          "size": 7864,
-          "sha512": "987d3adf8250229d7dbb61de8cf933ac28d3e22609d0806bf1e70e265577c8ed56c16c6bd415deeb8da6efe5ef1a3de74700a91bc3792d9064d4da3bf3c43b36",
-          "sha256": "cd1928cc0134b5c22aa0739b4d945599387df45ca228079f190099dfaf744e21",
-          "sha1": "bfa99bae893b4703028cfd63eabf50471c8011bd",
-          "md5": "0f7a74442c6a968f9b114f424b502c1a"
+          "name": "Date-iosarm64-1.0.0-metadata.jar",
+          "url": "Date-iosarm64-1.0.0-metadata.jar",
+          "size": 7030,
+          "sha512": "16e02f2b860bed222b3c3b7dc32b0d21e6e270e7e34773225cb7effedd7e68215db3d340cd0ee11815bec87c7fec57b2032c188653a36d499adafc35f4dc8eaa",
+          "sha256": "d2b61ddad04862c473bde88d1bbf73e87c34c60bb914458316d69f29cff11641",
+          "sha1": "873768190f745cd3c7e08d7d7fc36c1d4d629e59",
+          "md5": "329cccc9871fdea2868d6d64a0cfe0c0"
         }
       ]
     },
@@ -109,9 +109,9 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../ISO8601DateFormat/1.0.0/ISO8601DateFormat-1.0.0.module",
+        "url": "../../Date/1.0.0/Date-1.0.0.module",
         "group": "io.github.mrasterisco",
-        "module": "ISO8601DateFormat",
+        "module": "Date",
         "version": "1.0.0"
       }
     },
@@ -122,9 +122,9 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../ISO8601DateFormat/1.0.0/ISO8601DateFormat-1.0.0.module",
+        "url": "../../Date/1.0.0/Date-1.0.0.module",
         "group": "io.github.mrasterisco",
-        "module": "ISO8601DateFormat",
+        "module": "Date",
         "version": "1.0.0"
       }
     }

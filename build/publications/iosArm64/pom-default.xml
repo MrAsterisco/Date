@@ -7,15 +7,15 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.mrasterisco</groupId>
-  <artifactId>ISO8601DateFormat-iosarm64</artifactId>
+  <artifactId>Date-iosarm64</artifactId>
   <version>1.0.0</version>
   <packaging>klib</packaging>
-  <name>ISO8601DateFormat</name>
-  <url>https://github.com/MrAsterisco/ISO8601DateFormat</url>
+  <name>Date</name>
+  <url>https://github.com/MrAsterisco/Date</url>
   <licenses>
     <license>
       <name>MIT</name>
-      <url>https://github.com/MrAsterisco/ISO8601DateFormat/blob/master/LICENCE.md</url>
+      <url>https://github.com/MrAsterisco/Date/blob/master/LICENCE.md</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -26,9 +26,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>https://github.com/MrAsterisco/ISO8601DateFormat.git</connection>
-    <developerConnection>https://github.com/MrAsterisco/ISO8601DateFormat.git</developerConnection>
-    <url>https://github.com/MrAsterisco/ISO8601DateFormat</url>
+    <connection>https://github.com/MrAsterisco/Date.git</connection>
+    <developerConnection>https://github.com/MrAsterisco/Date.git</developerConnection>
+    <url>https://github.com/MrAsterisco/Date</url>
   </scm>
   <dependencies>
     <dependency>
