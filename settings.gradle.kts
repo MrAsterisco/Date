@@ -1,2 +1,1 @@
-rootProject.name = "Date"
-enableFeaturePreview("GRADLE_METADATA")
+rootProject.name = "date"
