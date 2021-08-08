@@ -74,14 +74,10 @@ kotlin {
     }
 
     plugins.withId("maven-publish") {
-        // https://github.com/gradle/gradle/issues/11412#issuecomment-555413327
-        System.setProperty("org.gradle.internal.publish.checksums.insecure", "true")
-
         configure<PublishingExtension> {
             val vcs: String by project
-            val bintrayOrg: String by project
-            val bintrayRepository: String by project
-            val bintrayPackage: String by project
+            val githubUser: String by project
+            val githubRepository: String by project
 
             repositories {
                 val local = Properties()
@@ -91,12 +87,11 @@ kotlin {
                 }
 
                 maven {
-                    name = "bintray"
-                    url =
-                        URI("https://api.bintray.com/maven/$bintrayOrg/$bintrayRepository/$bintrayPackage/;publish=0;override=0")
+                    name = "GitHubPackages"
+                    url = uri("https://maven.pkg.github.com/$githubUser/$githubRepository")
                     credentials {
-                        username = local["bintrayUser"] as String?
-                        password = local["bintrayApiKey"] as String?
+                        username = local["githubUser"] as String?
+                        password = local["githubToken"] as String?
                     }
                 }
             }
@@ -115,7 +110,7 @@ kotlin {
                     }
                     developers {
                         developer {
-                            id.set(bintrayOrg)
+                            id.set(githubUser)
                             name.set("Alessio Moiso")
                         }
                     }
