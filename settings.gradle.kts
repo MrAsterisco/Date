@@ -1,1 +1,1 @@
-rootProject.name = "Date"
+rootProject.name = "date"

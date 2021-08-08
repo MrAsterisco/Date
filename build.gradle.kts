@@ -1,5 +1,4 @@
 import org.jetbrains.kotlin.konan.target.HostManager
-import java.net.URI
 import java.util.*
 
 plugins {
