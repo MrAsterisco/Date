@@ -35,19 +35,29 @@ Dates are serialized using `ISO8601DateFormat`.
 On JVM, it is backend by `java.util.TimeZone`; on iOS, it is supported by `NSTimeZone`.
 
 ## Installation
-Add the repository to your `build.gradle`:
+Add the GitHub registry to your `build.gradle`:
 
 ```kotlin
-repositories {
-    maven("https://dl.bintray.com/mrasterisco/Maven")
+allprojects {
+ repositories {
+     maven {
+         url = uri("https://maven.pkg.github.com/mrasterisco/date")
+         credentials {
+             username = <YOUR GITHUB USERNAME>
+             password = <YOUR GITHUB PERSONAL ACCESS TOKEN>
+         }
+     }
+ }
 }
 ```
 
-Add the library as a dependency:
+GitHub doesn't support accessing packages without authentication ([more info](https://github.community/t/download-from-github-package-registry-without-authentication/14407/96)). You can generate a personal access token for your account [here](https://github.com/settings/tokens).
 
 ```kotlin
-dependencies {
-    implementation("io.github.mrasterisco:Date:<version>")
+val commonMain by getting {
+    dependencies {
+        implementation("io.github.mrasterisco:date:<version>")
+    }
 }
 ```
 
