@@ -3,8 +3,8 @@ import java.net.URI
 import java.util.*
 
 plugins {
-    kotlin("multiplatform") version "1.4.21"
-    kotlin("plugin.serialization") version "1.4.10"
+    kotlin("multiplatform") version "1.5.21"
+    kotlin("plugin.serialization") version "1.5.20"
     id("maven-publish")
 }
 
@@ -13,11 +13,22 @@ version = project.property("version")!!
 
 repositories {
     mavenCentral()
-    maven("https://dl.bintray.com/mrasterisco/Maven")
+    maven {
+        url = uri("https://maven.pkg.github.com/mrasterisco/time")
+        credentials {
+            val local = Properties()
+            val localProperties: File = rootProject.file("local.properties")
+            if (localProperties.exists()) {
+                localProperties.inputStream().use { local.load(it) }
+            }
+
+            username = local["githubUser"] as String? ?: System.getenv("USERNAME")
+            password = local["githubToken"] as String? ?: System.getenv("TOKEN")
+        }
+    }
 }
 
 kotlin {
-
     targets {
         jvm {
             compilations.all {
@@ -35,7 +46,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.1")
-                implementation("io.github.mrasterisco:Time:1.6.2")
+                implementation("io.github.mrasterisco:time:1.7.0")
             }
         }
         val commonTest by getting {
